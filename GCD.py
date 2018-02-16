@@ -2,7 +2,7 @@ def gcd (a,b)
 	if b==0:
 	return a:
 
-	else return g cd (b,a mod b):
+	else return gcd (b,a mod b):
 
 -
 -
