@@ -14,3 +14,4 @@ for r in range(1,n):
   for col in range(1, r + 1):
     print(pascal(r, col), end='')
   print("")
+
