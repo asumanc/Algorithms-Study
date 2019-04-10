@@ -9,7 +9,7 @@ def pascal(row, column):
   return left + right
 
 #driver function
-n = input()
+n = int(input())
 for r in range(1,n):
   for col in range(1, r + 1):
     print(pascal(r, col), end='')
