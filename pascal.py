@@ -10,7 +10,7 @@ def pascal(row, column):
 
 #driver function
 n = int(input())
-for r in range(1,n):
+for r in range(1,n+1):
   for col in range(1, r + 1):
     print(pascal(r, col), end='')
   print("")
