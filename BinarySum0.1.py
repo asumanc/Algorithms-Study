@@ -1,4 +1,4 @@
-# get input
+# gets input
 num1 = input()
 num2 = input()
 # converts to int using built-in function int()
