@@ -6,7 +6,7 @@ num1 = int(num1, 2)
 num2 = int(num2, 2)
 # adds up integers
 sum = num1 + num2
-# converts binary 
+# converts binary using built-in function bin()
 sum = bin(sum)
 
 print(sum)
