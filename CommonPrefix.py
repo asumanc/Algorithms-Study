@@ -1,4 +1,4 @@
-def commonPrefix(self, string):
+def commonPrefix(string):
     string = [input(i) for i in input().split()]
     # for each character of the first word in the array
     for i in range(len(string[0])):
@@ -17,3 +17,4 @@ def commonPrefix(self, string):
     	return ""
     
     return string[0]
+print(commonPrefix(['flower', 'fly', 'flee','flow'])
