@@ -11,7 +11,7 @@ def targetSum(target, num):
             left += 1
 
         elif temp == target:
-            return right + 1, left + 1
+            return right, left
 
 
 num = [int(i) for i in input().split()]
