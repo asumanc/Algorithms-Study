@@ -5,7 +5,7 @@ def removeElements(target, numbers):
             numbers.remove(numbers[i])
         elif not numbers:
             return 0
-    return removeElements
+    return
 
 numbers = [int(i) for i in input().split()]
 target = input()
